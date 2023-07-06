@@ -1,0 +1,11 @@
+.radio {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  /* padding-left: 2px; */
+  color: white;
+  cursor: pointer;
+}
+.t {
+  margin-left: 5px;
+}

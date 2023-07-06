@@ -1,0 +1,11 @@
+.check {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: white;
+  cursor: pointer;
+}
+.t {
+  margin-left: 5px;
+}

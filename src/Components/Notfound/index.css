@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #202020;
+  color: white;
+}
+.not-f {
+  height: 300px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+.cmt {
+  margin-top: 20px;
+  color: #64748b;
+}

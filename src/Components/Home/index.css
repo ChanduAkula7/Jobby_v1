@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 89vh;
+  /* width: 100vw; */
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+}
+.heading {
+  color: white;
+  font-size: 60px;
+  font-family: 'Roboto';
+  max-width: 750px;
+  margin-left: 60px;
+  margin-top: 100px;
+}
+.para {
+  color: #64748b;
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin-left: 60px;
+  max-width: 750px;
+  margin-top: 40px;
+}
+.bt {
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.btns {
+  height: 40px;
+  width: 100px;
+  background-color: #6366f1;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.mobile-container1 {
+  display: none;
+}
+@media screen and (max-width: 765px) {
+  .container {
+    display: none;
+  }
+  .mobile-container1 {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    /* width: 100vw; */
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    /* padding-left: 40px; */
+  }
+  .mobile-heading {
+    font-size: 45px;
+    color: white;
+    font-family: 'Roboto';
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .mobile-para {
+    color: white;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+  }
+  .mobile-bt {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+}

@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.marginal {
+  background-color: black;
+}
+.job-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.mobile-search {
+  display: none;
+}
+
+.profile-section {
+  max-width: 350px;
+  width: 320px;
+  height: 90vh;
+  /* border: 2px solid greenyellow; */
+  /* margin: 15px; */
+}
+
+.profile {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  /* background-size: auto; */
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 15px;
+  height: 35%;
+  border-radius: 20px;
+}
+.profile-pic {
+  height: 50px;
+  width: 80px;
+  box-sizing: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.user-heading {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #6366f1;
+}
+.bio {
+  margin-top: 5px;
+  margin-left: 20px;
+  color: green;
+  font-weight: 500;
+}
+.sal_range {
+  margin-left: 20px;
+  margin-top: 5px;
+  /* border: 2px solid red; */
+}
+.employee_type {
+  margin-left: 20px;
+  margin-top: 5px;
+  /* border: 2px solid red; */
+}
+.head {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+.line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.jobs-section {
+  margin: 15px;
+  /* border: 2px solid red; */
+  max-width: 1000px;
+}
+.lapi-search {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+  border-radius: 5px;
+  background-color: #202020;
+  max-width: 300px;
+}
+.input {
+  height: 30px;
+  width: 300px;
+  outline: none;
+  padding: 5px;
+  color: black;
+  /* font-weight: 500; */
+}
+.icon {
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+  /* font-weight: 500px; */
+}
+.jobs-display {
+  margin-top: 20px;
+  flex-direction: column;
+  /* width: 350px; */
+  height: 80vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.failre-jobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  margin-left: 20%;
+}
+.failbt {
+  height: 40px;
+  width: 120px;
+  margin-top: 20px;
+  color: white;
+  background-color: #6366f1;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+.primedeals-loader-container {
+  margin-left: 35%;
+}
+
+.no-job-lapi {
+  height: 400px;
+  width: 300px;
+}
+.no-job-mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .job-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .lapi-search {
+    display: none;
+  }
+  .no-job-mobile {
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+  }
+  .no-job-lapi {
+    display: none;
+  }
+  .mobile-search {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    background-color: #202020;
+    max-width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+}
