@@ -159,6 +159,7 @@ class Eachjobdisplay extends Component {
           </div>
           <h2 className="heading-of-similar">Similar jobs</h2>
           <div className="similar-jobs">
+                <div className="TT">
             {SIMILARJOBS.map(w => (
               <div className="each-job">
                 <div className="similar-logo">
@@ -193,6 +194,7 @@ class Eachjobdisplay extends Component {
                 </div>
               </div>
             ))}
+              </div>
           </div>
         </div>
       </>
