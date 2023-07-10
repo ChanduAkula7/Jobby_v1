@@ -159,42 +159,42 @@ class Eachjobdisplay extends Component {
           </div>
           <h2 className="heading-of-similar">Similar jobs</h2>
           <div className="similar-jobs">
-                <div className="TT">
-            {SIMILARJOBS.map(w => (
-              <div className="each-job">
-                <div className="similar-logo">
-                  <img
-                    src={w.companylogourl}
-                    alt="website logo"
-                    className="similar-logo"
-                  />
-                  <div className="similar-title">
-                    <h3>{w.title}</h3>
-                    <p>
-                      <AiFillStar className="star" />
-                      {w.rating}
+            <div className="TT">
+              {SIMILARJOBS.map(w => (
+                <div className="each-job">
+                  <div className="similar-logo">
+                    <img
+                      src={w.companylogourl}
+                      alt="website logo"
+                      className="similar-logo"
+                    />
+                    <div className="similar-title">
+                      <h3>{w.title}</h3>
+                      <p>
+                        <AiFillStar className="star" />
+                        {w.rating}
+                      </p>
+                    </div>
+                  </div>
+                  <h2 className="dis-heading1">Description</h2>
+                  <p className="dis-para">{w.jobdescription}</p>
+                  <div className="location-similar">
+                    <p className="icon">
+                      <span>
+                        <MdLocationOn className="icon1" />
+                      </span>
+                      {w.location}
+                    </p>
+                    <p className="icon">
+                      <span>
+                        <BsBriefcaseFill className="icon1" />
+                      </span>
+                      {w.employmenttype}
                     </p>
                   </div>
                 </div>
-                <h2 className="dis-heading1">Description</h2>
-                <p className="dis-para">{w.jobdescription}</p>
-                <div className="location-similar">
-                  <p className="icon">
-                    <span>
-                      <MdLocationOn className="icon1" />
-                    </span>
-                    {w.location}
-                  </p>
-                  <p className="icon">
-                    <span>
-                      <BsBriefcaseFill className="icon1" />
-                    </span>
-                    {w.employmenttype}
-                  </p>
-                </div>
-              </div>
-            ))}
-              </div>
+              ))}
+            </div>
           </div>
         </div>
       </>
