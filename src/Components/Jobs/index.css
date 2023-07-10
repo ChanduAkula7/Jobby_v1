@@ -5,6 +5,7 @@
 }
 .marginal {
   background-color: black;
+  max-height:200vh;
 }
 .job-container {
   display: flex;
